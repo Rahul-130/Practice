@@ -10,7 +10,7 @@
     <span *ngFor="let title of productsSentByChild">{{title }},</span>
 </div>
 
-<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 mt-4 ms-5">
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 g-4 mt-4 ms-5">
     <div class="col" *ngFor="let prObj of products">
         <app-product-details [productObj]=prObj  (myEvent)="getProductDetailsFromChild($event)" ></app-product-details>
     </div>

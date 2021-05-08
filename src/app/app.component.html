@@ -1,0 +1,332 @@
+<!-- ---------Demo -interpolation  and property binding  and event binding------------- -->
+<!-- <h1 class="text-center"> Welcome to Angular framework</h1>
+<hr>
+<div class="text-center">
+    <h1 class="text-primary">{{nameOfCourse}}
+        <span class="text-secondary">{{version}}</span>
+    </h1>
+    <h2 class="text-warning">{{instructor}}</h2>
+    <h3>Details of course</h3>
+    <h4>{{courseDetails.duration}}</h4>
+    <h4>{{courseDetails.modeOfTraining}}</h4>
+    <img [src]=imagePath alt=""><br>
+
+    <input type="text" [value]="nameOfCourse">
+
+    <!-- differance between interpolation & property binding ->
+    <button class="btn btn-success" disabled={{status}}>Test</button>
+    <button class="btn btn-success" [disabled]=status>Test</button>
+
+
+    <!-- event binding ->
+    <div>
+        <input type="text" class="form-control mb-2" #ref>
+        <button class="btn btn-primary" (click)="addData(ref.value)">Send Data</button>
+
+        <h1>{{data}}</h1>
+    </div>
+</div> -->
+
+
+
+
+
+
+<!-- <--------------Structual directives-----------------------  --> 
+    <!-- *ngIf -->
+    <!-- <div class="text-center m-3">
+        <button type="submit" class="btn btn-info" (click)="changeStatus()">{{status? "Hide":"Show"}}</button>
+        <h1 *ngIf="status">Welcome</h1>
+    </div> -->
+    <!-- *ngFor -->
+    <!-- -------------------------iterating array-------------- -->
+    <!-- <div class="text-center">
+        <h2 *ngFor="let n of arr">{{n}}</h2>
+
+        <ul>
+            <li *ngFor="let x of arr">{{x}}</li>
+        </ul>
+    </div> -->
+    
+
+
+
+
+
+
+
+
+<!-- ---------------------------To-Do Form----------------------------- -->
+<!-- <div class="w-50 mx-auto mt-5">
+    <h2 class="text-center text-secondary">To-Do form</h2>
+    <hr>
+    <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="inpt" placeholder="name@example.com" #ref>
+        <label for="inpt">Add to-do Item</label>
+      </div>
+      <button type="submit" class="btn btn-warning d-block mx-auto mt-3" (click)="addItem(ref.value)">Add to List</button>
+
+      <!-- display to-do list ->
+      <div class="text-center mt-5">
+          <h1 class="bg-dark text-white">List of actions</h1>
+          <hr>
+          
+      </div>
+</div> -->
+
+
+
+
+<!--     ==========================  Assg-18  ===================================   -->
+<!-- <div class="w-50 mx-auto mt-5">
+    <h2 class="text-center text-secondary">To-Do form</h2>
+    <hr>
+    <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="inpt" placeholder="name@example.com" #ref>
+        <label for="inpt">Add to-do Item</label>
+      </div>
+      <button type="submit" class="btn btn-warning d-block mx-auto mt-3" (click)="addItem(ref.value)"><i class="fas fa-plus-square"></i> Add to List</button>
+
+      <!-- display list ->
+      <div class="text-center mt-5">
+          <h1 class="bg-secondary text-white ">List of actions</h1>
+          <hr>
+
+          <div class="text-center m-3">
+
+            <button type="submit" class="btn btn-info" (click)="changeStatus()">{{status? "Hide":"Show"}}</button>
+            <div *ngIf="status">
+                <h4 *ngFor="let item of todoItems" class="bg-light">{{item}}</h4>
+            </div>
+            
+        </div>  
+      </div>
+</div> -->
+
+
+
+
+
+
+<!-- ----------------------to-do form using two-way binding method---------- -->
+<!--<div class="mx-auto mt-5" style="max-width: 700px;">
+    <h1 class="text-center  heading">
+      To-Do form
+    </h1>
+  
+    <!-- Adding item to list ->
+       <div class="form-floating m-5">
+      <input type="text" class="form-control" id="floatingInput" placeholder="Ex: Eating...." [(ngModel)]="item">
+      <label for="floatingInput">Add to-do item</label>
+    </div>
+    <button class="btn btn- d-block mx-auto mt-3" (click)="addItem();">
+      <i class="fas fa-plus-square"></i>
+      Add to list
+    </button>
+    <!-- display to-do list ->
+    <div class="text-center mt-5 ">
+      <h2 class=" itemlistHeader">
+        <i class="fas fa-th-list"></i>
+        List of actions
+      </h2>
+      <hr>
+  
+      <h2 *ngIf="todoItems.length==0">
+        <i class="fas fa-search text-danger d-block"></i>
+        No items found!!!
+      </h2>
+  
+      <!-- list of items ->
+      <h4 *ngFor="let item of todoItems;let ind=index" class="item">
+        {{item}}
+        <!-- delete button ->
+        <button class="btn btn-sm deleteBtn"   (click)="deleteItem(ind)"><i class="far fa-trash-alt"></i></button>
+      </h4>
+    </div>
+  </div>-->
+
+
+
+
+
+
+
+
+
+
+
+<!-- ---------------Submitting a form in Angular //User Registration form------------ -->
+<!-- <div class="mx-auto mt-5 bg-light" style="max-width: 600px">
+    <h1 class="text-center heading bg-secondary text-white">User Registration Form</h1>
+        <!-- User Registration system ->
+    <form class="p-2" action="" #ref=ngForm (ngSubmit)="addUserData(ref)">
+        <div>
+            <label for="un">Username</label>
+            <input type="text" name="username" id="un" class="form-control" ngModel>
+        </div>
+        <div>
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dob" id="pw" class="form-control" ngModel>
+        </div>
+        <div>
+            <label for="em">Email</label>
+            <input type="email" name="email" id="em" class="form-control" ngModel>
+        </div>
+        <button type="submit" class="btn btn-success d-block mx-auto m-3 mb">Submit</button>
+    </form>
+</div> -->
+
+
+
+
+<!--display using accordion -->
+<!-- <div class="container mt-4">
+<div class="text-center">
+  <h2 class="bg-dark text-white"><i class="fas fa-align-justify"></i> List of registers</h2>
+
+  <h1 *ngIf="users.length==0" >No users Found!!!</h1>
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item" *ngFor="let userObj of users;let ind=index">
+    
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" [attr.data-bs-target]="'#acr' + ind">
+        {{userObj.username}} &nbsp; &nbsp;
+          <!-- delete button ->
+      <button class="btn btn-sm deleteBtn bg-light" (click)="deleteItem(index)"><i class="far fa-trash-alt"></i></button>
+      </button>
+    </h2>
+    <div [attr.id]="'acr' + ind" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <h3>{{userObj.dob}}</h3>
+        <h3>{{userObj.email}}</h3>
+      </div>
+    </div>   
+  </div>
+</div>
+</div>
+</div> -->
+
+
+
+
+
+
+
+<!-- ---------------display the submitted form content as table---------------- -->
+<!-- <div class="text-center">
+    <h2>List of registers</h2>
+
+    <h1 *ngIf="users.length==0">No users Found</h1>
+
+    <div *ngIf="users.length!=0">
+        <!-- display a table ->
+        <table class="table">
+            <tr>
+                <th>Username</th>
+                <th>DOB</th>
+                <th>E-mail</th>
+            </tr>
+
+            <tbody>
+                <tr *ngFor="let userObj of users">
+                    <td>{{userObj.username}}</td>
+                    <td>{{userObj.dob}}</td>
+                    <td>{{userObj.email}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div> -->
+
+
+
+<!-- ===========================Form submiting using two way data binding======================= -->
+ <!-- <div class="mx-auto mt-5" style="max-width: 600px">
+    <h1 class="text-center heading">User Registration Form</h1>
+
+        <!-- User Registration system ->
+    <form action="" #ref=ngForm (ngSubmit)="addUserData()">
+        <div>
+            <label for="un">Username</label>
+            <input type="text" name="username" id="un" class="form-control" [(ngModel)]=userObj.username>
+        </div>
+        <div>
+            <label for="pw">Date of Birth</label>
+            <input type="date" name="dob" id="pw" class="form-control" [(ngModel)]=userObj.dob>
+        </div>
+        <div>
+            <label for="em">Email</label>
+            <input type="email" name="email" id="em" class="form-control" [(ngModel)]=userObj.email>
+        </div>
+        <button type="submit" class="btn btn-success d-block mx-auto m-3">Submit</button>
+    </form>
+</div> -->
+
+<!--display using using accordion -->
+<!-- <div class="text-center">
+  <h2 class="bg-dark text-white">List of registers</h2>
+
+  <h1 *ngIf="users.length==0" >No users Found!!!</h1>
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item" *ngFor="let userObj of users;let ind=index">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse"[attr.data-bs-target]="'#arc'+ind">
+          {{userObj.username}}
+        </button>
+      </h2>
+      <div [attr.id]="'acr'+ind" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <h3>{{userObj.dob}}</h3>
+          <h3>{{userObj.email}}</h3>
+        </div>
+      </div>
+    </div>
+          <!-- delete button ->
+    <button class="btn btn-sm deleteBtn"   (click)="deleteItem(index)"><i class="far fa-trash-alt"></i></button>
+
+  </div>
+</div> -->
+
+
+
+
+
+<!-- ============================= Componenet Nesting ================================== -->
+<!-- gride sys -->
+<!-- <div class="container">
+  <h1 class="text-info text-center m-1 display-5 p-1">User Management system</h1>
+  <div class="row">
+    <div class="col-sm-6">
+      <!-- nest user regis comp ->
+      <app-user-registration></app-user-registration>
+    </div>
+    <!-- nest user-list comp ->
+    <div class="col-sm-6">
+      <app-user-list></app-user-list>
+    </div>   
+  </div>
+</div> -->
+
+
+
+
+
+
+
+
+
+<!-- ============================ 6th may ============================ -->
+<!-- ======Product management system======== -->
+<div class="container-fluid">
+  <h1 class="display-3 text-center text-info pb-2 mt-2" style="background-color:rgba(255, 255, 255, 0.849)">Product management system</h1>
+</div>
+
+<!-- nest products component -->
+<div class="container">
+  <app-products></app-products>
+</div>
+
+
+<!-- nest footer component -->
+<app-footer class="mt-auto"></app-footer>
+

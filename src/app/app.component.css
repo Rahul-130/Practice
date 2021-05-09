@@ -1,7 +1,11 @@
 ul{
-    list-style: inside;
+    list-style-type: style none;
 }
 .deleteBtn{
     text-align: center;
     
+}
+
+.active{
+    font-weight: bold;
 }

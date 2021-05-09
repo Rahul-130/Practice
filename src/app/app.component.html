@@ -316,14 +316,47 @@
 
 
 <!-- ============================ 6th may ============================ -->
+<!-- sample web page -->
+<!-- create nav bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="#">SmartBuy</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="home" routerLinkActive="active"><i class="fas fa-home"></i> Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="register" routerLinkActive="active">Register</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="login" routerLinkActive="active">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="contactUs" routerLinkActive="active">ContacUs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="products" routerLinkActive="active">products</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
 <!-- ======Product management system======== -->
-<div class="container-fluid">
-  <h1 class="display-3 text-center text-info pb-2 mt-2" style="background-color:rgba(255, 255, 255, 0.849)">Product management system</h1>
+<div class="container-fluid mt-5 pt-1">
+  <h1 class="display-3 text-center text-info pb-2 mt-4" style="background-color:rgba(255, 255, 255, 0.849)">Product management system</h1>
 </div>
 
 <!-- nest products component -->
 <div class="container">
-  <app-products></app-products>
+  <router-outlet></router-outlet>
 </div>
 
 

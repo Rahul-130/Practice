@@ -1,0 +1,14 @@
+li a{
+    color:black;
+    font-weight: bold;
+}
+
+.active{
+    font-weight: bold;
+}
+
+.active.nav-link{
+    background-color:white;
+    color:#d81b60;
+    box-shadow: 3px 3px 3px #d81b60;
+}

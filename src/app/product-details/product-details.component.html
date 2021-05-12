@@ -9,7 +9,8 @@
 </div> -->
 
 <!-- dynamic data -->
-  <div class="card shadow h-100">
+<!-- horizontal card -->
+  <!-- <div class="card shadow h-100">
     <div class="row g-0">
       <div class="col-md-4 ">
         <img src={{productObj.productImage}} class="card-img-top p-2 h-75 mt-5 " alt="...">
@@ -22,5 +23,18 @@
           <a href="#" class="btn btn-primary mt-auto" (click)="sendProductDetailsToParent(productObj.productTitle)">Add Cart</a>
         </div>
       </div>
+    </div>
+  </div> -->
+
+
+
+  <!-- virtical card -->
+  <div class="card h-100 shadow text-center">
+    <img src={{productObj.productImage}} class="card-img-top  p-2" height="300px" alt="...">
+    <div class="card-body">
+      <h5 class="card-title" style="color: #173e9c;">{{productObj.productTitle}}</h5>
+      <p class="card-text">{{productObj.description}}
+      </p>
+      <button href="#" class="btn add-product btn-primary"><i class="fas fa-plus-square me-2"></i>Add product</button>
     </div>
   </div>

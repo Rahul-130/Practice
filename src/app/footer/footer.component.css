@@ -1,3 +1,7 @@
-.footer{
+footer{
     background-color: rgba(97, 81, 60, 0.822);
+    background-position: center;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    position: relative;
 }

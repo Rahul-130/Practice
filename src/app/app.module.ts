@@ -15,6 +15,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { MobilesComponent } from './mobiles/mobiles.component';
 import { BikeComponent } from './bike/bike.component';
 import { TelevisionComponent } from './television/television.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { TelevisionComponent } from './television/television.component';
     ContactUsComponent,
     MobilesComponent,
     BikeComponent,
-    TelevisionComponent
+    TelevisionComponent,
+    PagenotfoundComponent
   ],
   imports: [
     BrowserModule,

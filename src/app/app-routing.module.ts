@@ -5,6 +5,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { MobilesComponent } from './mobiles/mobiles.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { ProductsComponent } from './products/products.component';
 import { RegisterComponent } from './register/register.component';
 import { TelevisionComponent } from './television/television.component';
@@ -21,6 +22,7 @@ const routes: Routes = [
     {path: '', redirectTo:'/products/mobiles',pathMatch:'full'},
   ]},
   {path:'', redirectTo:'/home',pathMatch:'full'},
+  {path:'**', component:PagenotfoundComponent}
   
 ];
 

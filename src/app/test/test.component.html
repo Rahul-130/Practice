@@ -1,0 +1,100 @@
+<table class="table text-center text-dark">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Year</th>
+            <th>Color</th>
+            <th>Pantone Value</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let colorObj of color.data">
+            <td>{{colorObj.id}}</td>
+            <td>{{colorObj.name}}</td>
+            <td>{{colorObj.year}}</td>
+            <td style="background-color: {{colorObj.color}}">{{colorObj.color}}</td>
+            <td>{{colorObj.pantone_value}}</td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<hr>
+
+<!-- <table class="table text-center text-dark">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>UserName</th>
+            <th>Email</th>
+            <th>Address
+                <tr>
+                    <th>street</th>
+                    <th>suite</th>
+                    <th>city</th>
+                    <th>zipcode</th>
+                    <th>lat</th>
+                    <th>lng</th>
+                </tr>
+            </th>
+            <th>Phone</th>
+            <th>Website</th>
+            <th>Company
+                <tr>
+                    <th>Name</th>
+                    <th>Catch Phrase</th>
+                    <th>BS</th>
+                </tr>
+            </th>
+        </tr>
+    </thead>
+    <tbody *ngFor="let userObj of users">
+        <tr>
+            <td>{{userObj.id}}</td>
+            <td>{{userObj.name}}</td>
+            <td>{{userObj.username}}</td>
+            <td>{{userObj.email}}</td>
+            <td>street: {{userObj.address.street}},<br>
+               suite: {{userObj.address.suite}},<br>
+               city: {{userObj.address.city}},<br>
+               zipcode: {{userObj.address.zipcode}},<br>
+               lat: {{userObj.address.geo.lat}},<br>
+               lng: {{userObj.address.geo.lng}}</td>
+            
+            <td>{{userObj.phone}}</td>
+            <td>{{userObj.website}}</td>
+
+            <td>Name: {{userObj.company.name}} <br>
+               catchPhrase: {{userObj.company.catchPhrase}} <br>
+               bs: {{userObj.company.bs}}</td>
+        </tr>
+    </tbody>
+</table> -->
+
+<div class="row row-cols-1 row-cols-sm-2">
+    <div class="col " *ngFor="let userObj of users">
+        <div class="card bg-light m-2" >
+            <div class="card-body text-muted">
+                    <h6>Id : {{userObj.id}}</h6>
+                    <h6>Name : {{userObj.name}}</h6>
+                    <h6>UserName : {{userObj.username}}</h6>
+                    <h6>Email : {{userObj.email}}</h6>
+                    <h6 class="text-dark">Address : <br>
+                      &nbsp; &nbsp; &nbsp; street : {{userObj.address.street}} <br>
+                      &nbsp; &nbsp; &nbsp;  suite : {{userObj.address.suite}} <br>
+                      &nbsp; &nbsp; &nbsp;  city : {{userObj.address.city}} <br>
+                      &nbsp; &nbsp; &nbsp;  zipcode : {{userObj.address.zipcode}} <br>
+                      &nbsp; &nbsp; &nbsp;  lat : {{userObj.address.geo.lat}} <br>
+                      &nbsp; &nbsp; &nbsp;  lng : {{userObj.address.geo.lng}}
+                    </h6>
+                    <h6>Phone : {{userObj.phone}}</h6>
+                    <h6>Website : {{userObj.website}}</h6>
+                    <h6 class="text-dark">Company Name : {{userObj.company.name}} <br>
+                    &nbsp; &nbsp; &nbsp; Catch Phrase : {{userObj.company.catchPhrase}} <br>
+                    &nbsp; &nbsp; &nbsp; BS : {{userObj.company.bs}}</h6>
+            </div>
+        </div>
+    </div>
+</div>
+

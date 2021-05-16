@@ -14,11 +14,17 @@ export class BikeComponent implements OnInit {
   //inject obj of BikeService
   constructor(private bikeObj:BikeService) { }
 
-  ngOnInit(): void {
-    //obj init logic
-    this.bikes = this.bikeObj.getBikeData();
-  }
+  // ngOnInit(): void {
+  //   //obj init logic
+  //   this.bikes = this.bikeObj.getBikeData();
+  // }
 
-  
+  ngOnInit(){
+    this.bikeObj.getBikeData().subscribe(
+      data=>{ 
+        this.bikes=data;
+      },
+      err=>{ console.log("error is ",err) })
+  }
 
 }

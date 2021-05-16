@@ -8,11 +8,16 @@ import {TestService} from '../test.service'
 })
 export class HomeComponent implements OnInit {
 
-  n:number=12345;
-  constructor(private tsObj:TestService) { }
+  // n:number=12345;
+  // constructor(private tsObj:TestService) { }
 
-  ngOnInit(): void {
-    this.tsObj.setData(this.n);
+  // ngOnInit(): void {
+  //   this.tsObj.setData(this.n);
+  // }
+
+  constructor(){ }
+  ngOnInit(){
+    
   }
 
 }

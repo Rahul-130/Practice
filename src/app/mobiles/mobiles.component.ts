@@ -14,9 +14,17 @@ export class MobilesComponent implements OnInit{
   //inject obj of MobileService class
   constructor(private mobileObj:MobilesService) {}
 
+  // ngOnInit(){
+  //   //object init logic
+  //   this.mobiles = this.mobileObj.getMobilesData();
+  // }
+
   ngOnInit(){
-    //object init logic
-    this.mobiles = this.mobileObj.getMobilesData();
+    this.mobileObj.getMobilesData().subscribe(
+      data=>{ 
+        this.mobiles=data;
+      },
+      err=>{ console.log("error is ",err) })
   }
 
 }

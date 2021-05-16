@@ -9,13 +9,15 @@ import { TelevisionService } from '../television.service'
 })
 export class TelevisionComponent implements OnInit {
 
-  tvs:product[] = []
+  tvs:product[] = [];
   constructor(private tvsObj:TelevisionService ) { }
 
   ngOnInit() {
-    this.tvs = this.tvsObj.getTelevisionData();
+    this.tvsObj.getTelevisionData().subscribe(
+      data=>{
+        this.tvs = data;
+      },
+      err=>{ console.log("err is ",err)}
+    )
   }
-
-  
-
 }

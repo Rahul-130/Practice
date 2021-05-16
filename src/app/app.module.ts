@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UserRegistrationComponent } from './user-registration/user-registration.component';
@@ -16,6 +17,7 @@ import { MobilesComponent } from './mobiles/mobiles.component';
 import { BikeComponent } from './bike/bike.component';
 import { TelevisionComponent } from './television/television.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
@@ -32,12 +34,14 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
     MobilesComponent,
     BikeComponent,
     TelevisionComponent,
-    PagenotfoundComponent
+    PagenotfoundComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

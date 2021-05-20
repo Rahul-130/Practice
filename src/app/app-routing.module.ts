@@ -10,20 +10,23 @@ import { ProductsComponent } from './products/products.component';
 import { RegisterComponent } from './register/register.component';
 import { TelevisionComponent } from './television/television.component';
 import { TestComponent } from './test/test.component';
+import { UserdetailsComponent } from './userdetails/userdetails.component';
 
 const routes: Routes = [
   {path:'home', component:HomeComponent},
   {path:'register', component:RegisterComponent},
   {path:'login', component:LoginComponent},
   {path:'contactUs', component:ContactUsComponent},
+  {path:'test',component:TestComponent},
+  {path:'test/:id', component:UserdetailsComponent},
   {path:'products', component:ProductsComponent, children:[
     {path: 'mobiles', component:MobilesComponent},
     {path: 'bike', component:BikeComponent},
     {path: 'television', component:TelevisionComponent},
     {path: '', redirectTo:'/products/mobiles',pathMatch:'full'},
   ]},
+  
 
-  {path:'test',component:TestComponent},
 
   {path:'', redirectTo:'/home',pathMatch:'full'},
   {path:'**', component:PagenotfoundComponent}

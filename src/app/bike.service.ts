@@ -13,7 +13,7 @@ export class BikeService implements OnInit{
   }
 
   getBikeData():Observable<product[]>{
-    return this.hc.get<product[]>("assets/bike.json");
+    return this.hc.get<product[]>("http://localhost:3000/bike");
   }
 
 

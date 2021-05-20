@@ -12,7 +12,7 @@ export class TelevisionService {
 
   
  getTelevisionData():Observable<product[]>{
-   return this.hc.get<product[]>("assets/tv.json")
+   return this.hc.get<product[]>("http://localhost:3000/tv")
  }
 
 }

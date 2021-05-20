@@ -2,6 +2,27 @@
     <thead>
         <tr>
             <th>Id</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let objUser of users">
+            <td><button class="btn btn-sm btn-dark" (click)=onSelectId(objUser.id)>{{objUser.id}}</button></td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<hr>
+
+
+
+
+
+
+
+<!-- <table class="table text-center text-dark">
+    <thead>
+        <tr>
+            <th>Id</th>
             <th>Name</th>
             <th>Year</th>
             <th>Color</th>
@@ -19,7 +40,7 @@
     </tbody>
 </table>
 <br>
-<hr>
+<hr> -->
 
 <!-- <table class="table text-center text-dark">
     <thead>
@@ -72,7 +93,7 @@
     </tbody>
 </table> -->
 
-<div class="row row-cols-1 row-cols-sm-2">
+<!-- <div class="row row-cols-1 row-cols-sm-2">
     <div class="col " *ngFor="let userObj of users">
         <div class="card bg-light m-2" >
             <div class="card-body text-muted">
@@ -96,5 +117,5 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 

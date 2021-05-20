@@ -17,7 +17,7 @@ export class MobilesService implements OnInit{
 
   getMobilesData():Observable<product[]>{
    //http get
-   return this.hc.get<product[]>("assets/mobiles.json")
+   return this.hc.get<product[]>("http://localhost:3000/mobiles")
   }
 
 }

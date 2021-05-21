@@ -1,210 +1,200 @@
 {
-    "mobiles": [
-        {
-          "productTitle": "POCO M3",
-          "description": "6 GB RAM | 128 GB ROM | Expandable Upto 256 GB 16.51 cm (6.5 inch) HD+ Display 13MP + 2MP + 2MP | 16MP Front Camera 5000 mAh Lithium-ion Polymer Battery Qualcomm Snapdragon 460 Processor",
-          "productImage": "https://rukminim1.flixcart.com/image/416/416/kklhbbk0/mobile/h/i/q/m3-mzb087ain-poco-original-imafzxf8zqkcgwfv.jpeg?q=70",
-          "price": 12000
-        },
-        {
-          "productTitle": "OPPO A53",
-          "description": "6 GB RAM | 128 GB ROM | Expandable Upto 256 GB 16.51 cm (6.5 inch) HD+ Display 13MP + 2MP + 2MP | 16MP Front Camera 5000 mAh Lithium-ion Polymer Battery Qualcomm Snapdragon 460 Processor",
-          "productImage": "https://rukminim1.flixcart.com/image/416/416/kmmcrrk0/mobile/y/l/m/a53-cph2127-oppo-original-imagfgzsh5awf364.jpeg?q=70",
-          "price": 13500
-        },
-        {
-          "productTitle": "realme X50 Pro",
-          "description": "12 GB RAM | 256 GB ROM 16.36 cm (6.44 inch) Full HD+ Display 64MP + 12MP + 8MP + 2MP | 32MP + 8MP Dual Front Camera 4200 mAh Battery 5G Phone Qualcomm Snapdragon 865 Processor 65W Superdart Charge",
-          "productImage": "https://rukminim1.flixcart.com/image/416/416/k6zda4w0/mobile/h/y/8/realme-x50-pro-rmx2076-original-imafpbbvbwfcpz2r.jpeg?q=70",
-          "price": 47000
-        },
-        {
-          "productTitle": "ASUS ROG Phone 5",
-          "description": "8 GB RAM | 128 GB ROM 17.22 cm (6.78 inch) Full HD+ Display 64MP + 13MP + 5MP | 24MP Front Camera 6000 mAh Lithium Polymer Battery Qualcomm Snapdragon 888 (SM8350) Processor",
-          "productImage": "https://rukminim1.flixcart.com/image/416/416/km2clu80/mobile/8/r/x/rog-phone-5-zs673ks-1a053in-asus-original-imagff5hufbu4eg5.jpeg?q=70",
-          "price": 49999
-        },
-        {
-          "productTitle": "ViVO X60 Pro",
-          "description": "12 GB RAM | 256 GB ROM 16.66 cm (6.56 inch) Full HD+ Display 48MP + 13MP + 13MP | 32MP Front Camera 4200 mAh Lithium-ion Battery Qualcomm Snapdragon 870 Processor AMOLED Display",
-          "productImage": "https://rukminim1.flixcart.com/image/416/416/kmns7m80/mobile/d/j/i/x60-pro-v2046-vivo-original-imagfht6jmwvuvvp.jpeg?q=70",
-          "price": 49990
-        },
-        {
-          "productTitle": "SAMSUNG Galaxy S10 Lite",
-          "description": "8 GB RAM | 512 GB ROM | Expandable Upto 1 TB 17.02 cm (6.7 inch) Full HD+ Display 48MP + 12MP + 5MP | 32MP Front Camera 4500 mAh Lithium-ion Battery Qualcomm Snapdragon 855 (SM8150) Processor",
-          "productImage": "https://rukminim1.flixcart.com/image/416/416/k5o7r0w0/mobile/h/s/v/samsung-galaxy-s10-lite-sm-g770fzksinu-original-imafzaqnbjuffrvv.jpeg?q=70",
-          "price": 45999
-        }
-      ],
-
-
-    "bike": [
-        {
-          "productTitle": "Royal Enfield Classic 350",
-          "description": "Royal Enfield Classic 350 is a cruiser bikes available at a starting price of Rs. 1,68,178 in India. It is available in 7 variants and 13 colours with top variant price starting from Rs. 1,93,712. The Classic 350 is powered by 346cc BS6 engine which develops a power of 19.1 bhp and a torque of 28 Nm. With both front and rear disc brakes, Royal Enfield Classic 350 comes up with anti-locking braking system. This Classic 350 bike weighs 195 kg and has a fuel tank capacity of 13.5 liters.",
-          "productImage": "https://imgd.aeplcdn.com/393x221/bw/models/royal-enfield-classic-350-single-channel-abs--bs-vi20200303121804.jpg?q=85",
-          "price": 168178
-        },
-        {
-          "productTitle": "Yamaha MT 15",
-          "description": "Yamaha MT 15 is a street bikes available at a starting price of Rs. 1,41,638 in India. It is available in 2 variants and 3 colours with top variant price starting from Rs. 1,42,638. The MT 15 is powered by 155cc BS6 engine which develops a power of 18.2 bhp and a torque of 13.9 Nm. With both front and rear disc brakes, Yamaha MT 15 comes up with anti-locking braking system. This MT 15 bike weighs 138 kg and has a fuel tank capacity of 10 liters.",
-          "productImage": "https://imgd.aeplcdn.com/393x221/bw/models/yamaha-mt-15-bs-vi20200204191522.jpg?q=85",
-          "price": 141638
-        },
-        {
-          "productTitle": "KTM RC 125",
-          "description": "KTM RC 125 is a sports bikes available at a starting price of Rs. 1,69,318 in India. It is available in only 1 variant and 2 colours. The RC 125 is powered by 125cc BS6 engine which develops a power of 14.5 bhp and a torque of 12 Nm. With both front and rear disc brakes, KTM RC 125 comes up with anti-locking braking system.",
-          "productImage": "https://imgd.aeplcdn.com/393x221/n/cw/ec/45482/ktm-rc-125-front-three-quarter0.jpeg?q=85",
-          "price": 169320
-        },
-        {
-          "productTitle": "Jawa Standard",
-          "description": "Jawa Standard is a cruiser bikes available at a starting price of Rs. 1,78,341 in India. It is available in 2 variants and 3 colours with top variant price starting from Rs. 1,87,314. The Standard is powered by 293cc BS6 engine which develops a power of 27 bhp and a torque of 27.05 Nm. With front disc and rear drum brakes, Jawa Standard comes up with anti-locking braking system. This Standard bike weighs 172 kg and has a fuel tank capacity of 14 liters.",
-          "productImage": "https://imgd.aeplcdn.com/393x221/bw/models/jawa-standard-single-channel-abs--bs-vi20200302120818.jpg?q=85",
-          "price": 178340
-        },
-        {
-          "productTitle": "VSuzuki Hayabusa",
-          "description": "Suzuki Hayabusa is a super bikes available at a starting price of Rs. 16,43,445 in India. It is available in only 1 variant and 3 colours. The Hayabusa is powered by 1340cc BS6 engine which develops a power of 187.3 bhp and a torque of 150 Nm. With both front and rear disc brakes, Suzuki Hayabusa comes up with anti-locking braking system. This Hayabusa bike weighs 266 kg and has a fuel tank capacity of 20 liters.",
-          "productImage": "https://imgd.aeplcdn.com/393x221/bw/models/suzuki-hayabusa-standard20210426152114.jpg?q=85",
-          "price": 1643445
-        },
-        {
-          "productTitle": "Bajaj Dominar 400",
-          "description": "Bajaj Dominar 400 is a street bikes available at a starting price of Rs. 2,02,503 in India. It is available in only 1 variant and 2 colours. The Dominar 400 is powered by 373.27cc BS6 engine which develops a power of 39.42 bhp and a torque of 35 Nm. With both front and rear disc brakes, Bajaj Dominar 400 comes up with anti-locking braking system. This Dominar 400 bike weighs 187 kg and has a fuel tank capacity of 13 liters.",
-          "productImage": "https://imgd.aeplcdn.com/393x221/bw/models/bajaj-dominar-400-standard--bs-vi20200403135546.jpg?q=85",
-          "price": 202503
-        }
-      ],
-
-    "tv": [
-        {
-          "productTitle": "LG 139 cm (55 inch) Ultra HD (4K) LED Smart TV  (55UM7290PTD)",
-          "description": "The LG Ultra HD LED Smart TV comes with a 4K IPS display that lets you enjoy your content in its finest details. With a wide viewing angle that lets you enjoy the action from any angle, the television also comes with a 4k Active HDR feature that enhances your content with stunning resolution and bright colours. The television’s wireless connectivity, content store and many more innovative features are bound to keep you entertained.",
-          "productImage": "https://rukminim1.flixcart.com/image/416/416/kljrvrk0/television/7/h/p/55um7290ptd-lg-original-imagynkhwqy2bzpw.jpeg?q=70",
-          "price": 83990
-        },
-        {
-          "productTitle": "Nokia 139 cm (55 inch) Ultra HD (4K) LED Smart Android TV with Sound by Onkyo  (55TAUHDN)",
-          "description": "Bring home this TV from Nokia and deep-dive into a world of lifelike colours. Boasting a sleek and stunning design, this TV features Micro Dimming and a MaxBrite Display to ensure that you enjoy clear and crisp detail with vibrant colours.",
-          "productImage": "https://rukminim1.flixcart.com/image/416/416/kfwvcsw0/television/g/k/z/nokia-55tauhdn-original-imafw8xffqkuzjhu.jpeg?q=70",
-          "price": 40999
-        },
-        {
-          "productTitle": "MOTOROLA ZX 139 cm (55 inch) Ultra HD (4K) LED Smart Android TV with Wireless Gamepad  (55SAUHDM)",
-          "description": "Whether you're watching a movie, your favourite TV show, or playing a game on a console with your friends, this Ultra HD (4K) LED Smart Android TV from Motorola is here to transform your entertainment experience. While features such as AutoTuneX Display Technology and Dolby Vision + HDR 10 provide stunning visual quality, the AmphiSoundX feature provides an amazing sound experience. Also, with this TV's remote that comes with Hotkeys and Google Assistant, finding and navigating content is a piece of cake.",
-          "productImage": "https://rukminim1.flixcart.com/image/416/416/k3hmj680/television/e/b/r/motorola-65sauhdm-original-imafm59fztjjshhm.jpeg?q=70",
-          "price": 61600
-        },
-        {
-          "productTitle": "SONY BRAVIA X7400H 138.8 cm (55 inch) Ultra HD (4K) LED Smart Android TV  (KD-55X7400H)",
-          "description": "Bring home this elegantly designed Smart TV from Sony and watch your favourite movies, TV shows and more in mesmerizing colours and contrast. You can even browse and install a large number of applications from a store of over 5000 applications. The Triluminos display showcases your content in the best possible colour and gives you a truly immersive experience. It also comes with a dedicated Netflix button.",
-          "productImage": "https://rukminim1.flixcart.com/image/416/416/kd4uj680/television/g/8/8/sony-kd-55x7400h-original-imafu3nnwz2guq8u.jpeg?q=70",
-          "price": 94900
-        },
-        {
-          "productTitle": "PHILIPS 8200 139 cm (55 inch) Ultra HD (4K) LED Smart Android TV  (55PUT8215/94)",
-          "description": "Be it the ongoing Champions League, blockbuster movies, or live news, you can enjoy it all by bringing home the Phillips 139 cm (55) 4K UHD LED Android TV. Thanks to its DTS Play-Fi technology, it can connect to multiple compatible speakers to provide you with an enhanced audio experience. Furthermore, this TV supports HDR10+ technology for immersive picture quality and lifelike visuals.",
-          "productImage": "https://rukminim1.flixcart.com/image/416/416/kmqn3bk0/television/v/p/f/55put8215-94-philips-original-imagfkpbcqsg5hkq.jpeg?q=70",
-          "price": 89990
-        },
-        {
-          "productTitle": "SAMSUNG Q70RAK 138 cm (55 inch) QLED Ultra HD (4K) Smart TV  (QA55Q70RAKXXL)",
-          "description": "Here’s a television that can bring to you a magical viewing experience. Enjoy your favourite tv shows, movies and serials with this Samsung TV’s view-enhancing features such as Direct Full Array 4X and Quantum HDR 8X. You can also switch between different channels and adjust the volume using your voice, thanks to its Intelligent Voice Control feature.",
-          "productImage": "https://rukminim1.flixcart.com/image/416/416/k251k7k0/television/n/4/z/samsung-qa65q70rakxxl-original-imafhnvzbhyygwyq.jpeg?q=70",
-          "price": 169900
-        }
-      ],
-
-    "users":[{
-      "id":1,
-      "email":"sai@gmail.com",
-      "name":"sai",
-      "profilePic":"https://reqres.in/img/faces/9-image.jpg",
-      "profession":"doctor",
-      "mobileno":"9346274267"
-    },
-
+  "mobiles": [
     {
-      "id":2,
-      "email":"ram@gmail.com",
-      "name":"Ram",
-      "profilePic":"https://reqres.in/img/faces/10-image.jpg",
-      "profession":"software engg",
-      "mobileno":"9346274963"
+      "id": 1,
+      "productTitle": "POCO M3",
+      "description": "6 GB RAM | 128 GB ROM | Expandable Upto 256 GB 16.51 cm (6.5 inch) HD+ Display 13MP + 2MP + 2MP | 16MP Front Camera 5000 mAh Lithium-ion Polymer Battery Qualcomm Snapdragon 460 Processor",
+      "productImage": "https://rukminim1.flixcart.com/image/416/416/kklhbbk0/mobile/h/i/q/m3-mzb087ain-poco-original-imafzxf8zqkcgwfv.jpeg?q=70",
+      "price": 12000
     },
-
     {
-      "id":3,
-      "email":"sairam@gmail.com",
-      "name":"sai ram",
-      "profilePic":"https://reqres.in/img/faces/8-image.jpg",
-      "profession":"repoter",
-      "mobileno":"9346274852"
+      "id": 2,
+      "productTitle": "OPPO A53",
+      "description": "6 GB RAM | 128 GB ROM | Expandable Upto 256 GB 16.51 cm (6.5 inch) HD+ Display 13MP + 2MP + 2MP | 16MP Front Camera 5000 mAh Lithium-ion Polymer Battery Qualcomm Snapdragon 460 Processor",
+      "productImage": "https://rukminim1.flixcart.com/image/416/416/kmmcrrk0/mobile/y/l/m/a53-cph2127-oppo-original-imagfgzsh5awf364.jpeg?q=70",
+      "price": 13500
     },
-
     {
-      "id":4,
-      "email":"sanjana@gmail.com",
-      "name":"sanjana",
-      "profilePic":"https://reqres.in/img/faces/12-image.jpg",
-      "profession":"chef",
-      "mobileno":"9346274741"
+      "productTitle": "realme X50 Pro",
+      "description": "12 GB RAM | 256 GB ROM 16.36 cm (6.44 inch) Full HD+ Display 64MP + 12MP + 8MP + 2MP | 32MP + 8MP Dual Front Camera 4200 mAh Battery 5G Phone Qualcomm Snapdragon 865 Processor 65W Superdart Charge",
+      "productImage": "https://rukminim1.flixcart.com/image/416/416/k6zda4w0/mobile/h/y/8/realme-x50-pro-rmx2076-original-imafpbbvbwfcpz2r.jpeg?q=70",
+      "price": 47000
     },
-
     {
-      "id":5,
-      "email":"sumith@gmail.com",
-      "name":"sumith reddy",
-      "profilePic":"https://reqres.in/img/faces/11-image.jpg",
-      "profession":"hotel manager",
-      "mobileno":"9346274789"
+      "productTitle": "ASUS ROG Phone 5",
+      "description": "8 GB RAM | 128 GB ROM 17.22 cm (6.78 inch) Full HD+ Display 64MP + 13MP + 5MP | 24MP Front Camera 6000 mAh Lithium Polymer Battery Qualcomm Snapdragon 888 (SM8350) Processor",
+      "productImage": "https://rukminim1.flixcart.com/image/416/416/km2clu80/mobile/8/r/x/rog-phone-5-zs673ks-1a053in-asus-original-imagff5hufbu4eg5.jpeg?q=70",
+      "price": 49999
     },
-
     {
-      "id":6,
-      "email":"kiran@gmail.com",
-      "name":"kiran",
-      "profilePic":"https://reqres.in/img/faces/10-image.jpg",
-      "profession":"teacher",
-      "mobileno":"9346274456"
+      "productTitle": "ViVO X60 Pro",
+      "description": "12 GB RAM | 256 GB ROM 16.66 cm (6.56 inch) Full HD+ Display 48MP + 13MP + 13MP | 32MP Front Camera 4200 mAh Lithium-ion Battery Qualcomm Snapdragon 870 Processor AMOLED Display",
+      "productImage": "https://rukminim1.flixcart.com/image/416/416/kmns7m80/mobile/d/j/i/x60-pro-v2046-vivo-original-imagfht6jmwvuvvp.jpeg?q=70",
+      "price": 49990
     },
-
     {
-      "id":7,
-      "email":"ravi@gmail.com",
-      "name":"Ravi",
-      "profilePic":"https://reqres.in/img/faces/9-image.jpg",
-      "profession":"Actor",
-      "mobileno":"9346274125"
-    },
-
-    {
-      "id":8,
-      "email":"bhavani@gmail.com",
-      "name":"Bhavani",
-      "profilePic":"https://reqres.in/img/faces/7-image.jpg",
-      "profession":"student",
-      "mobileno":"9346274323"
-    },
-
-    {
-      "id":9,
-      "email":"hari@gmail.com",
-      "name":"Hari",
-      "profilePic":"https://reqres.in/img/faces/8-image.jpg",
-      "profession":"student",
-      "mobileno":"9346274369"
-    },
-
-    {
-      "id":10,
-      "email":"srivani@gmail.com",
-      "name":"Srivani",
-      "profilePic":"https://reqres.in/img/faces/7-image.jpg",
-      "profession":"student",
-      "mobileno":"9346274345"
+      "productTitle": "SAMSUNG Galaxy S10 Lite",
+      "description": "8 GB RAM | 512 GB ROM | Expandable Upto 1 TB 17.02 cm (6.7 inch) Full HD+ Display 48MP + 12MP + 5MP | 32MP Front Camera 4500 mAh Lithium-ion Battery Qualcomm Snapdragon 855 (SM8150) Processor",
+      "productImage": "https://rukminim1.flixcart.com/image/416/416/k5o7r0w0/mobile/h/s/v/samsung-galaxy-s10-lite-sm-g770fzksinu-original-imafzaqnbjuffrvv.jpeg?q=70",
+      "price": 45999
     }
-   ]
+  ],
+  "bike": [
+    {
+      "productTitle": "Royal Enfield Classic 350",
+      "description": "Royal Enfield Classic 350 is a cruiser bikes available at a starting price of Rs. 1,68,178 in India. It is available in 7 variants and 13 colours with top variant price starting from Rs. 1,93,712. The Classic 350 is powered by 346cc BS6 engine which develops a power of 19.1 bhp and a torque of 28 Nm. With both front and rear disc brakes, Royal Enfield Classic 350 comes up with anti-locking braking system. This Classic 350 bike weighs 195 kg and has a fuel tank capacity of 13.5 liters.",
+      "productImage": "https://imgd.aeplcdn.com/393x221/bw/models/royal-enfield-classic-350-single-channel-abs--bs-vi20200303121804.jpg?q=85",
+      "price": 168178
+    },
+    {
+      "productTitle": "Yamaha MT 15",
+      "description": "Yamaha MT 15 is a street bikes available at a starting price of Rs. 1,41,638 in India. It is available in 2 variants and 3 colours with top variant price starting from Rs. 1,42,638. The MT 15 is powered by 155cc BS6 engine which develops a power of 18.2 bhp and a torque of 13.9 Nm. With both front and rear disc brakes, Yamaha MT 15 comes up with anti-locking braking system. This MT 15 bike weighs 138 kg and has a fuel tank capacity of 10 liters.",
+      "productImage": "https://imgd.aeplcdn.com/393x221/bw/models/yamaha-mt-15-bs-vi20200204191522.jpg?q=85",
+      "price": 141638
+    },
+    {
+      "productTitle": "KTM RC 125",
+      "description": "KTM RC 125 is a sports bikes available at a starting price of Rs. 1,69,318 in India. It is available in only 1 variant and 2 colours. The RC 125 is powered by 125cc BS6 engine which develops a power of 14.5 bhp and a torque of 12 Nm. With both front and rear disc brakes, KTM RC 125 comes up with anti-locking braking system.",
+      "productImage": "https://imgd.aeplcdn.com/393x221/n/cw/ec/45482/ktm-rc-125-front-three-quarter0.jpeg?q=85",
+      "price": 169320
+    },
+    {
+      "productTitle": "Jawa Standard",
+      "description": "Jawa Standard is a cruiser bikes available at a starting price of Rs. 1,78,341 in India. It is available in 2 variants and 3 colours with top variant price starting from Rs. 1,87,314. The Standard is powered by 293cc BS6 engine which develops a power of 27 bhp and a torque of 27.05 Nm. With front disc and rear drum brakes, Jawa Standard comes up with anti-locking braking system. This Standard bike weighs 172 kg and has a fuel tank capacity of 14 liters.",
+      "productImage": "https://imgd.aeplcdn.com/393x221/bw/models/jawa-standard-single-channel-abs--bs-vi20200302120818.jpg?q=85",
+      "price": 178340
+    },
+    {
+      "productTitle": "VSuzuki Hayabusa",
+      "description": "Suzuki Hayabusa is a super bikes available at a starting price of Rs. 16,43,445 in India. It is available in only 1 variant and 3 colours. The Hayabusa is powered by 1340cc BS6 engine which develops a power of 187.3 bhp and a torque of 150 Nm. With both front and rear disc brakes, Suzuki Hayabusa comes up with anti-locking braking system. This Hayabusa bike weighs 266 kg and has a fuel tank capacity of 20 liters.",
+      "productImage": "https://imgd.aeplcdn.com/393x221/bw/models/suzuki-hayabusa-standard20210426152114.jpg?q=85",
+      "price": 1643445
+    },
+    {
+      "productTitle": "Bajaj Dominar 400",
+      "description": "Bajaj Dominar 400 is a street bikes available at a starting price of Rs. 2,02,503 in India. It is available in only 1 variant and 2 colours. The Dominar 400 is powered by 373.27cc BS6 engine which develops a power of 39.42 bhp and a torque of 35 Nm. With both front and rear disc brakes, Bajaj Dominar 400 comes up with anti-locking braking system. This Dominar 400 bike weighs 187 kg and has a fuel tank capacity of 13 liters.",
+      "productImage": "https://imgd.aeplcdn.com/393x221/bw/models/bajaj-dominar-400-standard--bs-vi20200403135546.jpg?q=85",
+      "price": 202503
+    }
+  ],
+  "tv": [
+    {
+      "productTitle": "LG 139 cm (55 inch) Ultra HD (4K) LED Smart TV  (55UM7290PTD)",
+      "description": "The LG Ultra HD LED Smart TV comes with a 4K IPS display that lets you enjoy your content in its finest details. With a wide viewing angle that lets you enjoy the action from any angle, the television also comes with a 4k Active HDR feature that enhances your content with stunning resolution and bright colours. The television’s wireless connectivity, content store and many more innovative features are bound to keep you entertained.",
+      "productImage": "https://rukminim1.flixcart.com/image/416/416/kljrvrk0/television/7/h/p/55um7290ptd-lg-original-imagynkhwqy2bzpw.jpeg?q=70",
+      "price": 83990
+    },
+    {
+      "productTitle": "Nokia 139 cm (55 inch) Ultra HD (4K) LED Smart Android TV with Sound by Onkyo  (55TAUHDN)",
+      "description": "Bring home this TV from Nokia and deep-dive into a world of lifelike colours. Boasting a sleek and stunning design, this TV features Micro Dimming and a MaxBrite Display to ensure that you enjoy clear and crisp detail with vibrant colours.",
+      "productImage": "https://rukminim1.flixcart.com/image/416/416/kfwvcsw0/television/g/k/z/nokia-55tauhdn-original-imafw8xffqkuzjhu.jpeg?q=70",
+      "price": 40999
+    },
+    {
+      "productTitle": "MOTOROLA ZX 139 cm (55 inch) Ultra HD (4K) LED Smart Android TV with Wireless Gamepad  (55SAUHDM)",
+      "description": "Whether you're watching a movie, your favourite TV show, or playing a game on a console with your friends, this Ultra HD (4K) LED Smart Android TV from Motorola is here to transform your entertainment experience. While features such as AutoTuneX Display Technology and Dolby Vision + HDR 10 provide stunning visual quality, the AmphiSoundX feature provides an amazing sound experience. Also, with this TV's remote that comes with Hotkeys and Google Assistant, finding and navigating content is a piece of cake.",
+      "productImage": "https://rukminim1.flixcart.com/image/416/416/k3hmj680/television/e/b/r/motorola-65sauhdm-original-imafm59fztjjshhm.jpeg?q=70",
+      "price": 61600
+    },
+    {
+      "productTitle": "SONY BRAVIA X7400H 138.8 cm (55 inch) Ultra HD (4K) LED Smart Android TV  (KD-55X7400H)",
+      "description": "Bring home this elegantly designed Smart TV from Sony and watch your favourite movies, TV shows and more in mesmerizing colours and contrast. You can even browse and install a large number of applications from a store of over 5000 applications. The Triluminos display showcases your content in the best possible colour and gives you a truly immersive experience. It also comes with a dedicated Netflix button.",
+      "productImage": "https://rukminim1.flixcart.com/image/416/416/kd4uj680/television/g/8/8/sony-kd-55x7400h-original-imafu3nnwz2guq8u.jpeg?q=70",
+      "price": 94900
+    },
+    {
+      "productTitle": "PHILIPS 8200 139 cm (55 inch) Ultra HD (4K) LED Smart Android TV  (55PUT8215/94)",
+      "description": "Be it the ongoing Champions League, blockbuster movies, or live news, you can enjoy it all by bringing home the Phillips 139 cm (55) 4K UHD LED Android TV. Thanks to its DTS Play-Fi technology, it can connect to multiple compatible speakers to provide you with an enhanced audio experience. Furthermore, this TV supports HDR10+ technology for immersive picture quality and lifelike visuals.",
+      "productImage": "https://rukminim1.flixcart.com/image/416/416/kmqn3bk0/television/v/p/f/55put8215-94-philips-original-imagfkpbcqsg5hkq.jpeg?q=70",
+      "price": 89990
+    },
+    {
+      "productTitle": "SAMSUNG Q70RAK 138 cm (55 inch) QLED Ultra HD (4K) Smart TV  (QA55Q70RAKXXL)",
+      "description": "Here’s a television that can bring to you a magical viewing experience. Enjoy your favourite tv shows, movies and serials with this Samsung TV’s view-enhancing features such as Direct Full Array 4X and Quantum HDR 8X. You can also switch between different channels and adjust the volume using your voice, thanks to its Intelligent Voice Control feature.",
+      "productImage": "https://rukminim1.flixcart.com/image/416/416/k251k7k0/television/n/4/z/samsung-qa65q70rakxxl-original-imafhnvzbhyygwyq.jpeg?q=70",
+      "price": 169900
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "sai@gmail.com",
+      "name": "sai",
+      "profilePic": "https://reqres.in/img/faces/9-image.jpg",
+      "profession": "doctor",
+      "mobileno": "9346274267"
+    },
+    {
+      "id": 2,
+      "email": "ram@gmail.com",
+      "name": "Ram",
+      "profilePic": "https://reqres.in/img/faces/10-image.jpg",
+      "profession": "software engg",
+      "mobileno": "9346274963"
+    },
+    {
+      "id": 3,
+      "email": "sairam@gmail.com",
+      "name": "sai ram",
+      "profilePic": "https://reqres.in/img/faces/8-image.jpg",
+      "profession": "repoter",
+      "mobileno": "9346274852"
+    },
+    {
+      "id": 4,
+      "email": "sanjana@gmail.com",
+      "name": "sanjana",
+      "profilePic": "https://reqres.in/img/faces/12-image.jpg",
+      "profession": "chef",
+      "mobileno": "9346274741"
+    },
+    {
+      "id": 5,
+      "email": "sumith@gmail.com",
+      "name": "sumith reddy",
+      "profilePic": "https://reqres.in/img/faces/11-image.jpg",
+      "profession": "hotel manager",
+      "mobileno": "9346274789"
+    },
+    {
+      "id": 6,
+      "email": "kiran@gmail.com",
+      "name": "kiran",
+      "profilePic": "https://reqres.in/img/faces/10-image.jpg",
+      "profession": "teacher",
+      "mobileno": "9346274456"
+    },
+    {
+      "id": 7,
+      "email": "ravi@gmail.com",
+      "name": "Ravi",
+      "profilePic": "https://reqres.in/img/faces/9-image.jpg",
+      "profession": "Actor",
+      "mobileno": "9346274125"
+    },
+    {
+      "id": 8,
+      "email": "bhavani@gmail.com",
+      "name": "Bhavani",
+      "profilePic": "https://reqres.in/img/faces/7-image.jpg",
+      "profession": "student",
+      "mobileno": "9346274323"
+    },
+    {
+      "id": 9,
+      "email": "hari@gmail.com",
+      "name": "Hari",
+      "profilePic": "https://reqres.in/img/faces/8-image.jpg",
+      "profession": "student",
+      "mobileno": "9346274369"
+    },
+    {
+      "id": 10,
+      "email": "srivani@gmail.com",
+      "name": "Srivani",
+      "profilePic": "https://reqres.in/img/faces/7-image.jpg",
+      "profession": "student",
+      "mobileno": "9346274345"
+    }
+  ]
 }

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {MobilesService} from '../mobiles.service';
+import { Mobile } from '../models/mobile.model';
 import {product} from '../models/product.model';
 
 @Component({
@@ -9,7 +10,7 @@ import {product} from '../models/product.model';
 })
 export class MobilesComponent implements OnInit{
 
-  mobiles:product[]=[];
+  mobiles:Mobile[]=[];
 
   //inject obj of MobileService class
   constructor(private mobileObj:MobilesService) {}

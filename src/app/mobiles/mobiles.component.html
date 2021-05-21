@@ -1,5 +1,16 @@
-<div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 g-4 mt-4 ms-5">
+<!-- <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 g-4 mt-4 ms-5">
     <div class="col" *ngFor="let mobileObj of mobiles">
         <app-product-details [productObj]=mobileObj ></app-product-details>
     </div>
-</div>
+</div> -->
+
+<ul class="nav nav-tabs pt-2 justify-content-center">
+    <li>
+        <a class="nav-link" routerLink="viewmobiles" routerLinkActive="active">view Mobiles</a>
+    </li>
+    <li>
+        <a class="nav-link" routerLink="addnewmobiles" routerLinkActive="active">add Mobiles</a>
+    </li>
+</ul>
+
+<router-outlet></router-outlet>

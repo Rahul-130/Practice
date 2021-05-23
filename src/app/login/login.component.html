@@ -3,15 +3,15 @@
     <div class="row">
         <div class="col-sm-2 col-md-3"></div>
         <div class="col-sm-8 col-md-6">
-            <form class="mt-4">
+            <form class="mt-4" #ref="ngForm" (ngSubmit)="onLogin(ref)">
                 <div class="mb-3">
-                  <label for="un" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="un" aria-describedby="emailHelp" placeholder="sample@gmail.com">
+                  <label for="un" class="form-label">Username</label>
+                  <input type="text" class="form-control" id="un" name="username" placeholder="Username" ngModel>
                   
                 </div>
                 <div class="mb-3">
                   <label for="pw" class="form-label text-dark">Password</label>
-                  <input type="password" class="form-control" id="pw" placeholder="*********">
+                  <input type="password" class="form-control" id="pw" name="password" placeholder="*********" ngModel>
                 </div>
                 <button type="submit" class="btn btn-primary d-block mx-auto">Submit</button>
             </form >

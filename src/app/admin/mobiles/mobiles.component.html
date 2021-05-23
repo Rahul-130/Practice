@@ -1,0 +1,18 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th>Brand</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Image</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor= "let mobileObj of mobiles">
+            <td>{{mobileObj.productTitle}}</td>
+            <td>{{mobileObj.description}}</td>
+            <td>{{mobileObj.price}}</td>
+            <td><img src="{{mobileObj.productImage}}" width="100px" alt=""></td>
+        </tr>
+    </tbody>
+</table>
